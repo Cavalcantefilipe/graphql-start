@@ -1,0 +1,23 @@
+{
+  "name": "graphql-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cavalcantefilipe/graphql-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cavalcantefilipe/graphql-start/issues"
+  },
+  "homepage": "https://github.com/Cavalcantefilipe/graphql-start#readme",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.11.0"
+  }
+}
