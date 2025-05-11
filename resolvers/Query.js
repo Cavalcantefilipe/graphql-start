@@ -16,4 +16,11 @@ exports.Query = {
         const { id } = args
         return categories.find((category) => category.id === id)
     },
+    reviews: (parent, args, {reviews}) => {
+        return reviews
+    },
+    review: (parent, args, {reviews}) => {
+        const { id } = args
+        return reviews.find((review) => review.id === id)
+    },
 }
